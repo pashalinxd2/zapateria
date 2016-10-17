@@ -76,120 +76,216 @@
 
       <div class="container">
             <div class="row">
-                <div class="col-sm-3">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h2>Side</h2>
-                            <div class="panel panel-default">
-                                <div class="panel-heading">News</div>
-                                <div class="panel-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-                                </div>
-                                <div class="text-center">
-                                    <a href="#"><i class="fa fa-plus"></i>Full Story</a>
-                                </div>
-                            </div>
-                            <hr />
-                            <div class="panel panel-default">
-                                <div class="panel-heading">News</div>
-                                <div class="panel-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
-                                </div>
-                                <div class="text-center">
-                                    <a href="#"><i class="fa fa-plus"></i>Full Story</a>
-                                </div>
-                            </div>
-                            <hr />
-                            <div class="panel panel-default">
-                                <div class="panel-heading">News</div>
-                                <div class="panel-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-                                </div>
-                                <div class="text-center">
-                                    <a href="#"><i class="fa fa-plus"></i>Full Story</a>
-                                </div>
-                            </div>
-                        </div>
+                
+                <!-- inicio del contenido-->
+                <div class="form0">
+                    <div class="container">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10 well">
+            <div class="tab-pane">
+                
+                <!-- Button trigger modal -->
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        
+      <!--<div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>-->
+      <br>
+      <br>
+      
+      <div class="container">
+                    <form class="form-inline">
+                      <div class="form-group">
+                        <label for="exampleInputName2">PRODUCTO</label>
+                        <input type="text" class="form-control" id="exampleInputName2" placeholder="CODIGO">
+                      </div>
+                      <!--<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">
+                        BUSCAR PRODUCTO
+                        </button>-->
+                      <!--<button type="submit" class="btn btn-default">BUSCAR PRODUCTO</button>-->
+                    </form>
+                    </div>  
+        
+      <div class="modal-body">
+        <table class="table table-hover table-striped table-bordered">
+                    
+                    
+                    <thead>
+                        <tr>
+                            <td width="3%" bgcolor="skyblue"><strong>COD</strong></td>
+                            <td width="15%" bgcolor="skyblue"><strong>PRODUCTO</strong></td>
+                            <td width="3%" bgcolor="skyblue"><strong>TALLA</strong></td>
+                            <td width="8%" bgcolor="skyblue"><strong>MARCA</strong></td>
+                            <td width="3%" bgcolor="skyblue"><strong>STOCK</strong></td>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+    
+                        <tr>     
+                            <input type="hidden" name="id_detalle_venta" size="10">
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+
+                        </tr>
+                        <tr>     
+                            <input type="hidden" name="id_detalle_venta" size="10">
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+
+                        </tr>
+                        <tr>     
+                            <input type="hidden" name="id_detalle_venta" size="10">
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+
+                        </tr>
+                        <tr>     
+                            <input type="hidden" name="id_detalle_venta" size="10">
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                        </tr>
+                    </tbody>
+                </table>
+      </div>
+      <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="form-inline">
+          <div class="form-group">
+            <label class="sr-only" for="exampleInputEmail3">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="exampleInputPassword3">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Remember me
+            </label>
+          </div>
+          <button type="submit" class="btn btn-default navbar-right">Sign in</button>
+        </form>
+        <BR>
+
+        
+
+
+
+                <div class="container">
+                    <form class="form-inline">
+                      <div class="form-group">
+                        <label for="exampleInputName2">PRODUCTO</label>
+                        <input type="text" class="form-control" id="exampleInputName2" placeholder="CODIGO">
+                      </div>
+                      <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">
+                        BUSCAR PRODUCTO
+                        </button>
+                      <!--<button type="submit" class="btn btn-default">BUSCAR PRODUCTO</button>-->
+                    </form>
                     </div>
+<BR>
+                
+                <table class="table table-hover table-striped table-bordered">
+                    
+                    
+                    <thead>
+                        <tr>
+                            <td width="3%" bgcolor="skyblue"><strong>CANTIDAD</strong></td>
+                            <td width="3%" bgcolor="skyblue"><strong>COD</strong></td>
+                            <td width="15%" bgcolor="skyblue"><strong>PRODUCTO</strong></td>
+                            <td width="3%" bgcolor="skyblue"><strong>TALLA</strong></td>
+                            <td width="3%" bgcolor="skyblue"><strong>Nro</strong></th>
+                            <td width="8%" bgcolor="skyblue"><strong>MARCA</strong></td>
+                            <td width="3%" bgcolor="skyblue"><strong>COSTO</strong></td>
+                            <td width="3%" bgcolor="skyblue"><strong>STOCK</strong></td>
+                            <td width="8%" bgcolor="skyblue"><strong>OPCIONES</strong></td>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+    
+                        <tr>     
+                            <input type="hidden" name="id_detalle_venta" size="10">
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td aling="center"></td>
+
+                        </tr>
+                        <tr>     
+                            <input type="hidden" name="id_detalle_venta" size="10">
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td aling="center"></td>
+                        </tr>
+                        <tr>     
+                            <input type="hidden" name="id_detalle_venta" size="10">
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td aling="center"></td>
+                        </tr>
+                        <tr>     
+                            <input type="hidden" name="id_detalle_venta" size="10">
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td align="center"></td>
+                            <td aling="center"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>
                 </div>
-                <div class="col-sm-9">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h2>Article Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-                    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
-                    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
-                    Aliquam in felis sit amet augue.
-                            </p>
-                            <div class="text-center">
-                                <a href="#"><i class="fa fa-plus"></i>Full Story</a>
-                                <a href="#"><i class="fa fa-comment"></i>12 Comments</a>
-                                <a href="#"><i class="fa fa-share"></i>11 Shares</a>
-                            </div>
-                        </div>
-                    </div>
-                    <hr />
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h2>Article Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-                    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
-                    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
-                    Aliquam in felis sit amet augue.
-                            </p>
-                            <div class="text-center">
-                                <a href="#"><i class="fa fa-plus"></i>Full Story</a>
-                                <a href="#"><i class="fa fa-comment"></i>2 Comments</a>
-                                <a href="#"><i class="fa fa-share"></i>211 Shares</a>
-                            </div>
-                        </div>
-                    </div>
-                    <hr />
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h2>Article Title</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-                    Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
-                    dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
-                    Aliquam in felis sit amet augue.
-                            </p>
-                            <div class="text-center">
-                                <a href="#"><i class="fa fa-plus"></i>Full Story</a>
-                                <a href="#"><i class="fa fa-comment"></i>7 Comments</a>
-                                <a href="#"><i class="fa fa-share"></i>67 Shares</a>
-                            </div>
-                        </div>
-                    </div>
-                    <hr />
-
-                    <!-- the comment box -->
-                    <div class="well">
-                        <h4>Leave a Comment:</h4>
-                        <form role="form">
-                            <div class="form-group">
-                                <textarea class="form-control" rows="3"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </form>
-                    </div>
-
-                    <hr>
-
-                    <!-- the comments -->
-                    <h3>Blog contents
-                    <small>2014/03/07 11:43 PM</small>
-                    </h3>
-                    <p>This is a very interesting blog, well structured and organized. Would be great if you included more information on other IT topics as well.</p>
-
-                    <h3>Contacts
-                    <small>2014/03/09 12:11 PM</small>
-                    </h3>
-                    <p>I wanted to get in touch with the author of the blog, but I see no way to do this.</p>
-
-                </div>
+                <!-- fin del contenido -->
             </div>
         </div>
     </div>
