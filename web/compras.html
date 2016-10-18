@@ -90,6 +90,8 @@
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
+
+        
         
       <!--<div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -173,23 +175,29 @@
           </div>
         </div>
 
-        <form class="form-inline">
-          <div class="form-group">
-            <label class="sr-only" for="exampleInputEmail3">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
-          </div>
-          <div class="form-group">
-            <label class="sr-only" for="exampleInputPassword3">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
-          </div>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox"> Remember me
-            </label>
-          </div>
-          <button type="submit" class="btn btn-default navbar-right">Sign in</button>
-        </form>
+
+<div class="form-group navbar-right" >
+    <label for="exampleInputName"><font face="arial" >FECHA</font></label>
+<script> 
+
+var mydate=new Date(); 
+var year=mydate.getYear(); 
+if (year < 1000) 
+year+=1900; 
+var day=mydate.getDay(); 
+var month=mydate.getMonth()+1; 
+if (month<10) 
+month="0"+month; 
+var daym=mydate.getDate(); 
+if (daym<10) 
+daym="0"+daym; 
+document.write("<big><font color='000000' face='Arial'><b>"+daym+"/"+month+"/"+year+"</b></font></big>") 
+
+</script> 
+        </div>
+
         <BR>
+        
 
         
 
@@ -214,8 +222,8 @@
                     
                     <thead>
                         <tr>
-                            <td width="3%" bgcolor="skyblue"><strong>CANTIDAD</strong></td>
-                            <td width="3%" bgcolor="skyblue"><strong>COD</strong></td>
+                            <td width="1%" bgcolor="skyblue"><strong>CANT.</strong></td>
+                            <td width="3%" bgcolor="skyblue"><strong>COD.</strong></td>
                             <td width="15%" bgcolor="skyblue"><strong>PRODUCTO</strong></td>
                             <td width="3%" bgcolor="skyblue"><strong>TALLA</strong></td>
                             <td width="3%" bgcolor="skyblue"><strong>Nro</strong></th>
@@ -279,6 +287,27 @@
                         </tr>
                     </tbody>
                 </table>
+
+                <div class="navbar-right" >
+                   <form class="form-inline">
+                    <div class="form-group">
+                        <label for="disabledTextInput">TOTAL</label>
+                      <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+                      <div class="input-group">
+                        <div class="input-group-addon">$</div>
+                        <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+                        <div class="input-group-addon">.00</div>
+                      </div>
+                    </div>
+                    
+                  </form>     
+                   </div>
+                   <div>
+                    <center>
+                        <button type="button" class="btn btn-primary">ACEPTAR</button>
+                        <button type="button" class="btn btn-danger">SALIR</button>
+                    </center>
+                </div>
             </div>
         </div>
         <div class="col-md-1"></div>
