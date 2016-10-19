@@ -9,6 +9,9 @@ body {
   width: 100%;
   padding: 5px 15px;
 }
+.icon-success {
+    color: #5CB85C;
+}
 
 .sui-cell {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
